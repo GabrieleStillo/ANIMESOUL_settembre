@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386026894306",
+    "project_id": "animesoul-b768e",
+    "storage_bucket": "animesoul-b768e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386026894306:android:4031c9fd63eba1e8577fbb",
+        "android_client_info": {
+          "package_name": "com.example.animesoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386026894306-tnaobki77kvscg4ejiusd5bfv07pjcoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhhgAveZs2hXySaOlMgcn5Tm_P22Boqj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386026894306-tnaobki77kvscg4ejiusd5bfv07pjcoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

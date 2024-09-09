@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">AnimeSoul</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="top_anime">Top Anime</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">386026894306-tnaobki77kvscg4ejiusd5bfv07pjcoi.apps.googleusercontent.com</string>
+    <string name="adv" translatable="false">This will only be applied to the titles of the various anime.\n\nDon\'t worry, you can change this choice whenever you want :)</string>
+    <string name="Anime" translatable="false">Anime</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="my_list" translatable="false">My List</string>
+    <string name="def" translatable="false">Default</string>
+    <string name="jap" translatable="false">Japanese</string>
+    <string name="leng" translatable="false">Which title do you prefer?</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="app_nameDef" translatable="false">ANIMESOUL</string>
+    <string name="app_nameJap" translatable="false">アニメソウル</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="txt_or">OR</string>
+    <string name="google_login">Login with Google</string>
+    <string name="register">Register</string>
+    <string name="new_account">New to ANIMESOUL? </string>
+    <string name="personal_area">Personal area</string>
+    <string name="prova_titolo">prova titolo</string>
+    <string name="profile_image_desc">description_image</string>
+    <string name="username">Username</string>
+    <string name="nome_account">Please enter your username</string>
+    <string name="Registerpassword">Choose password</string>
+    <string name="loading">Loading. . .</string>
+    <string name="adventure">Adventure</string>
+    <string name="supernatural">Supernatural</string>
+    <string name="mystery">Mystery</string>
+    <string name="sports">Sports</string>
+    <string name="horror">Horror</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="kids">Kids</string>
+    <string name="drama">Drama</string>
+    <string name="comedy">Comedy</string>
+    <string name="action">Action</string>
+    <string name="gifanimation">gifAnimation</string>
+    <string name="your_favorites_list_is_empty">your favorites list is empty. . .</string>
+    <string name="searchlist">what are you looking for ?</string>
+    <string name="aired">Aired:</string>
+    <string name="genre">Genre:</string>
+    <string name="producers">Producers:</string>
+    <string name="suggested">Suggested by genre</string>
+    <string name="details">Details</string>
+    <string name="setting">Settings</string>
+    <string name="save_language_preference">Save Language Preference</string>
+    <string name="you_want_to_switch_your_account">you want to switch your account?</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="reset_password">Reset password</string>
+    <!-- Titles -->
+    <string name="terms_conditions_title">Terms &amp; Conditions</string>
+    <string name="acceptance_of_terms_title">1. Acceptance of Terms</string>
+    <string name="registration_security_title">2. Registration and Security</string>
+    <string name="acceptable_use_title">3. Acceptable Use</string>
+    <string name="intellectual_property_title">4. Intellectual Property</string>
+    <string name="privacy_title">5. Privacy</string>
+    <string name="limited_liability_title">6. Limited Liability</string>
+    <string name="service_interruptions_title">7. Service Interruptions</string>
+    <string name="termination_of_account_title">8. Termination of Account</string>
+    <string name="governing_law_title">9. Governing Law</string>
+
+    <!-- Contents -->
+    <string name="acceptance_of_terms_content">By accessing and using the AnimeSoul application, you agree to be bound by these Terms and Conditions. If you do not agree with any part of the terms, you must not use the application.</string>
+    <string name="registration_security_content">To use certain features of the application, you need to create an account. You\'re responsible for maintaining the confidentiality of your login information, and for all activities that occur under your account.</string>
+    <string name="acceptable_use_content">You agree to use AnimeSoul only for lawful purposes and in accordance with these Terms and Conditions. You\'re prohibited from using the application to engage in any unlawful, harmful, or disruptive behavior.</string>
+    <string name="intellectual_property_content">All content available on the app, including text, images, logos, videos, and graphics, is the property of AnimeSoul or its licensors and is protected by copyright, trademark, and other intellectual property laws.</string>
+    <string name="privacy_content">Your privacy is important to us. Please refer to our Privacy Policy for details on how we collect, use, and protect your personal information while using the app.</string>
+    <string name="limited_liability_content">The use of the AnimeSoul app is at your own risk. The app is provided "as is" without warranties of any kind, either express or implied. We do not guarantee that the app will be error-free or uninterrupted.</string>
+    <string name="service_interruptions_content">We reserve the right to suspend or discontinue access to AnimeSoul temporarily or permanently, with or without notice, for maintenance or other reasons.</string>
+    <string name="termination_of_account_content">We reserve the right to suspend or terminate your account at any time if you violate these Terms and Conditions, or for any other reason at our discretion.</string>
+    <string name="governing_law_content">These Terms and Conditions are governed by and construed in accordance with the laws of the country where the company is based.</string>
+
+</resources>

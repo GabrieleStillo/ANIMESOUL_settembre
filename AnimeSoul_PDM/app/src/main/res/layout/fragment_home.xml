@@ -1,0 +1,234 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Il contenuto principale del fragment -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="5dp">
+
+            <!-- Sezione Comedy -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comedy"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewComedy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Drama -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drama"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewDrama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Kids -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kids"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewKids"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Fantasy -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fantasy"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewFantasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Horror -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/horror"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewHorror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Mystery -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mystery"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMystery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Sports -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sports"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Supernatural -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/supernatural"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSupernatural"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Adventure -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adventure"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAdventure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+            <!-- Sezione Action -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/bangers" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Schermata di caricamento -->
+    <FrameLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_theme_background"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/gifAnimation"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/gifanimation"
+                android:src="@drawable/tanjiro_nezuko_and_zenitsu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.42">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/loadingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gifAnimation"
+                android:text="@string/loading"
+                android:textColor="@color/yellowPrimary"
+                android:textSize="25sp"
+                android:fontFamily="@font/bangers"
+                app:layout_constraintEnd_toEndOf="@+id/gifAnimation"
+                app:layout_constraintStart_toStartOf="@+id/gifAnimation"
+                app:layout_constraintTop_toBottomOf="@+id/gifAnimation" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
